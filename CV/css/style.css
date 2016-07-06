@@ -1,0 +1,211 @@
+body, h1, h2, h3, h4, h5, h6,p, div, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 960px;
+    width:960px;
+    margin:0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-wrapper {
+    align-content: center;
+    background-image: url('http://raw.githubusercontent.com/MecuSorin/WebStatic/master/CV/header-background.jpg');
+    border-radius: 25px;
+    color: white;
+}
+.header h1 {
+    margin-top: 1em;
+}
+
+.header div.idented span {
+    margin-bottom: 14px;
+    padding-bottom: 6px;
+}
+.header {
+    display: inline-block;
+
+}
+
+.header-main {
+    background-color: rgba(0,0,0,0.6);
+    max-width: 600px;
+    padding-bottom: 1.2em;
+}
+
+.header-right {
+    font-size: 9px;
+    float:right;
+    background-color: rgba(0,0,0,0.6);
+    padding-right: 2em;
+    margin: 3em 2.4em 1em 0px;
+}
+.header-right i {
+    font-size: 18px;
+}
+.action-with-icon {
+   font-family: FontAwesome;
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+}
+
+.action-with-icon.envelope {
+    content: "\f095";
+}
+
+span.embossed {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header-wrapper a:link {
+    color: white;
+}
+
+/* visited link */
+.header-wrapper a:visited {
+    color: greenyellow;
+}
+
+/* mouse over link */
+.header-wrapper a:hover {
+    color: aquamarine;
+}
+
+/* selected link */
+.header-wrapper a:active {
+    color: lightskyblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+i.fa {
+    width: 24px;
+}
+
+i.embossed-icon {
+    color: orangered;
+}
+
+.idented {
+    margin-left: 2em;
+}
+
+
+.avatar {
+    float: left;
+    margin: 2em;
+    margin-right: 1em;
+    position: relative;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+}
+
+.section {
+    margin-top: 1em;
+}
+
+.section-name {
+    vertical-align: top;
+    margin: 1em;
+    min-width: 200px ! important;
+    display: inline;
+}
+
+.section-content {
+    max-width: 600px;
+    display: inline-block;
+}
+
+.tick-source {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+svg {
+  padding: 0rem;
+  width: 10rem;
+  padding-right: 0.6em;
+}
+.language {
+    width: 7.3em;
+    float: left;
+    font-weight: bolder;
+}
+table {
+    margin:1em;
+}
+
+table.main {
+    border-collapse: separate;
+    border-spacing: 5px 0px;
+}
+
+td {
+    padding-bottom: 1.3em;
+}
+
+tr td:first-child {
+    vertical-align: top;
+}
+
+.indented {
+    margin-left: 2.3em;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: whitesmoke;
+    color: #333;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+ul.vertical-spaced.enabled{
+    margin-top: 0.7em;
+}
+
+ul.vertical-spaced li {
+    margin-bottom: 0.7em;
+}
+
+.table-vertical-line {
+    margin:6px;
+    background-image: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.05), lightgray, rgba(0, 0, 0, 0.05));
+    background-image: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.05), lightgray, rgba(0, 0, 0, 0.05));
+    background-image: -ms-linear-gradient(0deg, rgba(0, 0, 0, 0.05), lightgray, rgba(0, 0, 0, 0.05));
+    background-image: -o-linear-gradient(0deg,rgba(0, 0, 0, 0.05), lightgray, rgba(0, 0, 0, 0.05));
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.05), lightgray, rgba(0, 0, 0, 0.05));
+}
+.small-text {
+    font-size: 11px;
+    width: 100%;
+    text-align: center;
+    display:table;
+    margin:0 auto;
+}
+
