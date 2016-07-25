@@ -15,7 +15,7 @@ ul {
 
 .header-wrapper {
     align-content: center;
-    background-image: url('http://raw.githubusercontent.com/MecuSorin/WebStatic/master/CV/header-background.jpg');
+    background-image: url('https://raw.githubusercontent.com/MecuSorin/WebStatic/master/CV/header-background.jpg');
     border-radius: 25px;
     color: white;
 }
@@ -45,9 +45,11 @@ ul {
     padding-right: 2em;
     margin: 3em 2.4em 1em 0px;
 }
+
 .header-right i {
     font-size: 18px;
 }
+
 .action-with-icon {
    font-family: FontAwesome;
    display: inline-block;
@@ -167,23 +169,7 @@ tr td:first-child {
     margin-left: 2.3em;
 }
 
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: whitesmoke;
-    color: #333;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
 
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
 
 ul.vertical-spaced.enabled{
     margin-top: 0.7em;
@@ -207,5 +193,43 @@ ul.vertical-spaced li {
     text-align: center;
     display:table;
     margin:0 auto;
+}    
+
+.special-highlight{
+    -webkit-animation-name: special-highlight-animation; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: special-highlight-animation;
+    animation-duration: 4s;
+    animation-iteration-count: 1000;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes special-highlight-animation {
+    0%   {text-shadow: 1px 1px 1px blue;}
+    100%  {text-shadow: 1px 1px 6px white;}
+}
+
+/* Standard syntax */
+@keyframes special-highlight-animation {
+    0%   {text-shadow: 1px 1px 1px blue;}
+    100%  {text-shadow: 1px 1px 6px white;}
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 320px;
+    background-color: whitesmoke;
+    color: #333;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    text-shadow: none;  /* reset special-highlight animation*/
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 
