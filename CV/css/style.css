@@ -275,7 +275,7 @@ ul.vertical-spaced li {
   right: -5px; top: -5px;
   z-index: 1;
   overflow: hidden;
-  width:135px; height: 135px;
+  width:140px; height: 140px;
   text-align: right;
 }
 
@@ -289,10 +289,10 @@ ul.vertical-spaced li {
   -webkit-transform: rotate(45deg);
   width: 180px;
   display: block;
-
-  background: linear-gradient(#B6BAC9 0%, #808080 100%);
+  border: 5px solid lightgray;
+  background: linear-gradient(#2e2e84 0%,  #141439 100%);
   /*box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);*/
   position: absolute;
-  top: 45px; right: -30px;
+  top: 40px; right: -35px;
 
 }
