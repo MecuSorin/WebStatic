@@ -287,6 +287,118 @@ ul.vertical-spaced li {
     100%   {left: 1000px;top: 165px;  widht: 0px; height: 0px; background-size: 1px 1px; }
 }
 
+@media screen and (max-width:4000px) {
+    .disapear-bot {
+        animation-name: disapear-bot-animation-4000;
+        -webkit-animation-name: disapear-bot-animation-4000; /* Chrome, Safari, Opera */
+    }
+}
+
+@media screen and (max-width:3860px) {
+    .disapear-bot {
+        animation-name: disapear-bot-animation-3860;
+        -webkit-animation-name: disapear-bot-animation-3860; /* Chrome, Safari, Opera */
+    }
+}
+
+@media screen and (max-width:2560px) {
+    .disapear-bot {
+        animation-name: disapear-bot-animation-2560;
+        -webkit-animation-name: disapear-bot-animation-2560; /* Chrome, Safari, Opera */
+    }
+}
+
+@media screen and (max-width:1920px) {
+    .disapear-bot {
+        animation-name: disapear-bot-animation-1920;
+        -webkit-animation-name: disapear-bot-animation-1920; /* Chrome, Safari, Opera */
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .disapear-bot {
+        animation-name: disapear-bot-animation-1400;
+        -webkit-animation-name: disapear-bot-animation-1400; /* Chrome, Safari, Opera */
+    }
+}
+
+@media screen and (max-width:1280px) and (max-height:800px) {
+    .disapear-bot {
+        animation-name: disapear-bot-animation-1280x800;
+        -webkit-animation-name: disapear-bot-animation-1280x800; /* Chrome, Safari, Opera */
+    }
+}
+
+@media screen and (max-width:1024px) and (max-height:768px) {
+    .disapear-bot {
+        animation-name: disapear-bot-animation-1024x768;
+        -webkit-animation-name: disapear-bot-animation-1024x768; /* Chrome, Safari, Opera */
+    }
+}
+
+@keyframes disapear-bot-animation-1024x768 {
+    0%  {left: 310px;top: 10px;  width: 272px; height: 292px; background-size: 272px 292px; }
+    100%   {left: 880px;top: 195px;  widht: 0px; height: 0px; background-size: 1px 1px; }
+}
+@-webkit-keyframes disapear-bot-animation-1024x768 {
+    0%  {left: 310px;top: 10px;  width: 272px; height: 292px; background-size: 272px 292px; }
+    100%   {left: 880px;top: 195px;  widht: 0px; height: 0px; background-size: 1px 1px; }
+}
+
+@keyframes disapear-bot-animation-1280x800 {
+    0%  {left: 310px;top: 10px;  width: 272px; height: 292px; background-size: 272px 292px; }
+    100%   {left: 1000px;top: 195px;  widht: 0px; height: 0px; background-size: 1px 1px; }
+}
+@-webkit-keyframes disapear-bot-animation-1280x800 {
+    0%  {left: 310px;top: 10px;  width: 272px; height: 292px; background-size: 272px 292px; }
+    100%   {left: 1000px;top: 195px;  widht: 0px; height: 0px; background-size: 1px 1px; }
+}
+
+@keyframes disapear-bot-animation-1400 {
+    0%  {left: 310px;top: 10px;  width: 272px; height: 292px; background-size: 272px 292px; }
+    100%   {left: 1050px;top: 195px;  widht: 0px; height: 0px; background-size: 1px 1px; }
+}
+@-webkit-keyframes disapear-bot-animation-1400 {
+    0%  {left: 310px;top: 10px;  width: 272px; height: 292px; background-size: 272px 292px; }
+    100%   {left: 1050px;top: 195px;  widht: 0px; height: 0px; background-size: 1px 1px; }
+}
+
+@keyframes disapear-bot-animation-1920 {
+    0%  {left: 310px;top: 10px;  width: 272px; height: 292px; background-size: 272px 292px; }
+    100%   {left: 1300px;top: 195px;  widht: 0px; height: 0px; background-size: 1px 1px; }
+}
+@-webkit-keyframes disapear-bot-animation-1920 {
+    0%  {left: 310px;top: 10px;  width: 272px; height: 292px; background-size: 272px 292px; }
+    100%   {left: 1300px;top: 195px;  widht: 0px; height: 0px; background-size: 1px 1px; }
+}
+
+@keyframes disapear-bot-animation-2560 {
+    0%  {left: 310px;top: 10px;  width: 272px; height: 292px; background-size: 272px 292px; }
+    100%   {left: 1600px;top: 195px;  widht: 0px; height: 0px; background-size: 1px 1px; }
+}
+@-webkit-keyframes disapear-bot-animation-2560 {
+    0%  {left: 310px;top: 10px;  width: 272px; height: 292px; background-size: 272px 292px; }
+    100%   {left: 1600px;top: 195px;  widht: 0px; height: 0px; background-size: 1px 1px; }
+}
+
+@keyframes disapear-bot-animation-3860 {
+    0%  {left: 310px;top: 10px;  width: 272px; height: 292px; background-size: 272px 292px; }
+    100%   {left: 2270px;top: 195px;  widht: 0px; height: 0px; background-size: 1px 1px; }
+}
+@-webkit-keyframes disapear-bot-animation-3860 {
+    0%  {left: 310px;top: 10px;  width: 272px; height: 292px; background-size: 272px 292px; }
+    100%   {left: 2270px;top: 195px;  widht: 0px; height: 0px; background-size: 1px 1px; }
+}
+
+@keyframes disapear-bot-animation-4000 {
+    0%  {left: 310px;top: 10px;  width: 272px; height: 292px; background-size: 272px 292px; }
+    100%   {left: 2360px;top: 195px;  widht: 0px; height: 0px; background-size: 1px 1px; }
+}
+@-webkit-keyframes disapear-bot-animation-4000 {
+    0%  {left: 310px;top: 10px;  width: 272px; height: 292px; background-size: 272px 292px; }
+    100%   {left: 2360px;top: 195px;  widht: 0px; height: 0px; background-size: 1px 1px; }
+}
+
 .ribbon {
   position: absolute;
   right: 0px; 
