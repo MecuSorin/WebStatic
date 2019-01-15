@@ -464,3 +464,7 @@ ul.twocolls  li {
     width: 50%;
     display: inline;
 }
+
+span.course-title {
+    font-size: 1.22em;
+}
