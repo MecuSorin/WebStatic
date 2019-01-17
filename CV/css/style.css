@@ -468,3 +468,11 @@ ul.twocolls  li {
 span.course-title {
     font-size: 1.22em;
 }
+
+div.grid-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 3em;
+    font-style: italic;
+}
+
