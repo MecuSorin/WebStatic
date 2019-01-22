@@ -183,6 +183,11 @@ ul.vertical-spaced li {
     margin-bottom: 0.7em;
 }
 
+ul.vertical-spaced ol li {
+    margin-bottom: 0.2em;
+    font-style: italic;
+}
+
 .table-vertical-line {
     margin:6px;
     background-image: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.05), lightgray, rgba(0, 0, 0, 0.05));
@@ -273,7 +278,7 @@ ul.vertical-spaced li {
     animation-name: disapear-bot-animation;
     animation-duration: 8s;
     animation-iteration-count: 1;
-    animation-delay: 10s; /* To not interfere with PDF generator tool */
+    animation-delay: 13s; /* To not interfere with PDF generator tool */
 }
 
 /* Chrome, Safari, Opera */
