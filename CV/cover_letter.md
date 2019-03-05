@@ -25,6 +25,6 @@ Good or bad, I’d love to hear from you.
 Best regards,  
 Sorin  
 Phone: 0040747020102  
-Email: mecumihaisorin @gmail.com
+Email: mecumihaisorin@gmail.com
 
-PS. If I got your attention about the remote positions, click on the link to see [**a guide that works**](https://github.com/MecuSorin/WebStatic/blob/master/CV/remote-policy-that-works.md)
+PS. If I got your attention about the remote positions, follow the link to see [**a guide that works**](https://github.com/MecuSorin/WebStatic/blob/master/CV/remote-policy-that-works.md)
